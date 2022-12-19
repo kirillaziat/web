@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/index.css">
+    <script src="script/main.js"></script>
     <meta charset="UTF-8">
     <title>Пропокер</title>
 </head>
@@ -12,8 +13,8 @@
             <img src="resources/logo.svg"><a href="index.html">ПРОПОКЕР</a>
         </div>
         <div class="navigation">
-            <a href="top.html" class="navigation__item">Топ</a>
-            <a href="about.html" class="navigation__item">О сайте</a>
+            <a href="top.html" class="navigation__item" id="nav-top">Топ</a>
+            <a href="about.html" class="navigation__item" id="nav-about">О сайте</a>
         </div>
     </header>
 
@@ -58,9 +59,12 @@
     </main>
 
     <footer>
+        <div id="loadtime" style="color: red">
+
+        </div>
         Найдите автора:
         <ul>
-            <li><a href="https://t.me/kirillaziat">kirikkaziat</a></li>
+            <li><a href="https://t.me/kirillaziat">kirillaziat</a></li>
             <li>А больше вам знать не нужно)</li>
         </ul>
     </footer>
